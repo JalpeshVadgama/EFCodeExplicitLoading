@@ -9,7 +9,7 @@ namespace EFCoreExplicitLoading
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=FSS1;Initial Catalog=Student;User ID=sa;Password=Jalpesh@123;MultipleActiveResultSets=true");
+            optionsBuilder.UseSqlServer(@"Data Source=SQLServerName;Initial Catalog=YourDatabase;User ID=UserName;Password=Password;MultipleActiveResultSets=true");
         }
     }
 }
