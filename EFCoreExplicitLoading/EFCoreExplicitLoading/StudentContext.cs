@@ -5,7 +5,7 @@ namespace EFCoreExplicitLoading
     public class StudentContext: DbContext
     {
         public DbSet<Student> Students { get; set; }
-        public DbSet<Deaprtment> Departments { get; set; }
+        public DbSet<Department> Departments { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -6,6 +6,6 @@
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int DepartMentId { get; set; }
-        public Deaprtment Department { get; set; }
+        public Department Department { get; set; }
     }
 }

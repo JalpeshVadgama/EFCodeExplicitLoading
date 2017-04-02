@@ -2,9 +2,9 @@
 
 namespace EFCoreExplicitLoading
 {
-    public class Deaprtment
+    public class Department
     {
-        public int Department { get; set; }
+        public int DepartmentId { get; set; }
         public string Name { get; set; }
         public ICollection<Student> Students { get; set; }
     }
